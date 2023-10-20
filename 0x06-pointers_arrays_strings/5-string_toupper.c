@@ -5,6 +5,7 @@
  * @str : string to be changed.
  * Return: str.
  */
+
 char *string_toupper(char *str)
 {
 	int alpha = 0;
