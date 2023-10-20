@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcat - function name
  * @dest - parameter one
@@ -6,7 +7,7 @@
  *Return: dest
  */
 
- char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int destlen = 0;
 	int srclen = 0;
