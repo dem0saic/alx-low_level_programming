@@ -10,15 +10,16 @@
 {
 	int destlen = 0;
 	int srclen = 0;
-	int number_oftimes;
+	int i;
 
-	for (number_oftimes = 0; dest[number_oftimes] != '\0'; number_oftimes++)
+	for (i = 0; dest[i] != '\0'; i++)
 		destlen++;
-	for (number_oftimes = 0; src[number_oftimes] != '\0'; number_oftimes++)
+	for (i = 0; src[i] != '\0'; i++)
 		srclen++;
-	for (number_oftimes = 0; number_oftimes <= srclen; number_oftimes++)
+
+	for (i = 0; i <= srclen; i++)
 	{
-		dest[destlen + number_oftimes] = src[number_oftimes];
+		dest[destlen + i] = src[i];
 	}
 	return (dest);
 }
