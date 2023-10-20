@@ -10,21 +10,18 @@
 {
 	int destlen = 0;
 	int srclen = 0;
-	int i;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (dest[destlen] != '\0')
 	{
 		destlen++;
 	}
 
-	for (i = 0; src[i] != '\0'; i++)
+	while (src[srclen] != '\0')
 	{
+		dest[destlen] = src[srclen];
+		destlen++;
 		srclen++;
 	}
-
-	for (i = 0; i <= srclen; i++)
-	{
-		dest[destlen + i] = src[i];
-	}
+	dest[destlen] = '\0';
 	return (dest);
 }
