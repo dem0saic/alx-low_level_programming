@@ -4,6 +4,7 @@
  * @abs: _abs parameter.
  * Return: Always 0.
  */
+
 int _abs(int abs)
 {
 	if (abs < 0)
