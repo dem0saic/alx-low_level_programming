@@ -8,8 +8,7 @@
  * Return:
  * - If the list is empty: 0.
  * - Otherwise: The sum of all the data.
- */
- 
+*/
 int sum_listint(listint_t *head)
 {
 	int sum = 0;

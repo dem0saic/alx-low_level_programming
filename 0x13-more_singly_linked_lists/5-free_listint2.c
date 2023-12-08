@@ -7,8 +7,8 @@
  *
  * Description:
  * Frees the entire linked list and sets the head pointer to NULL.
- */
- 
+*/
+
 void free_listint2(listint_t **head)
 {
 	listint_t *tmp;
