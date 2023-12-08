@@ -13,7 +13,6 @@
  * - If filename is NULL: 0
  * - If write fails or does not write the expected amount of bytes: 0
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, r, w;
